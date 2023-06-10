@@ -1,0 +1,105 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    background-position: calc(3,5,6,7);
+    background-image: url('../public/images/beach.jpg');
+    background-size: 100%;
+    height: 150px;
+    width: 100%;
+    
+   margin-top: -10px;
+}
+.background > h1 {
+    font-size: 40px;
+}
+
+.nameFeild{
+    width: 400px;
+    height: 36px;
+    outline: none;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-top: none;
+    font-weight: 500;
+   
+}
+.labelName{
+padding-top: 13px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: gray;
+}
+.textContainer{
+    padding-top: 10px;
+}
+
+.slect{
+    width: 400px;
+    height: 36px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.textField{
+    margin-top: 15px;
+}
+
+.textType{
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    outline: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.Btn{
+    width: 110px;
+    height: 40px;
+    background-color: rgb(51, 174, 245);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(250, 248, 248);
+    margin-top: 15px;
+    cursor: pointer;
+    letter-spacing: 1.6 !important;
+}
+
+.samall{
+    color:gray;
+}
+.BtnL{
+    width: 150px;
+    background-color: rgb(51, 174, 245);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.loading{
+    color:lightblue;
+    size: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* dashboard css style  */
+
+.CamerContainer{
+    margin-top: 10px;
+    text-align: center;
+
+    
+}

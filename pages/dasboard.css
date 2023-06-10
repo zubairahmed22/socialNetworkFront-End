@@ -1,0 +1,195 @@
+.register{
+    display: flex;
+    
+}
+.postSection{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+.postSection{
+    width: 100%;
+}
+.post{
+    width: 70%;
+}
+
+.sidebar{
+    width: 30%;
+}
+.cratePost{
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.PostBTN{
+    background-color: rgb(27, 136, 226);
+    border: none;
+    width: 90px;
+    height: 40px;
+    margin-top: -10px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.textbox{
+    width: 800px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0.5px 0.5px 0.5px 1px lightgray;
+    height:200px;
+    outline: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight:550;
+    color: rgb(70, 66, 66);
+    padding: 5px;
+}
+
+.ql-container.ql-snow {
+    border-top: 0px;
+    /* border-bottom: none; */
+    height: 200px;
+    margin-top: 0px;
+    height: 150px;
+}
+
+.footerdev{
+    width: 800px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0px 1px 1px 1px solid lightgray;
+    border-bottom: 1px  solid lightgray;
+    border-left: 1px  solid lightgray;
+    border-right: 1px  solid lightgray;
+
+
+
+    
+}
+
+.inputFile {
+    display: none;
+}
+.mt-3{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.postContaier{
+   
+    padding-left: 70px;
+    justify-content:  center;
+    align-items: center;
+}
+
+/* post list image styling css here...*/
+.postlist{
+    
+    margin-left: 30px;
+    /* background-color: rgb(234, 236, 236); */
+    align-items: center;
+    border: 1px solid rgb(234, 236, 236);
+    box-shadow: 1px 1px 0px 0px rgb(240, 236, 236);
+
+}
+.picture{
+    width: 100%;
+    height:180px;
+    
+    object-fit: contain;
+}
+
+.image{
+  
+    width: 100%;
+    
+    
+}
+
+.postlist{
+    
+    width: 700px;
+    height: auto;
+    margin: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.Date{
+   display: flex;
+   justify-content: end;
+   padding-bottom: 5px;
+   color: gray;
+}
+
+.likes_comment{
+    display: flex;
+    justify-content: space-between;
+}
+.likeStyle{
+   color: brown !important;
+   font-size: 16px;
+}
+.likeStyleEdit{
+    color: rgb(23, 150, 223) !important;
+    font-size: 15px;
+}
+
+.sidebar{
+    margin-top: 50px;
+}
+
+/* following page css
+*/
+.followingMainDev{
+    margin-top: 100px;
+}
+.card2{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    
+    margin-top: 20px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgray;
+    align-content: center;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-bottom: 10px;
+}
+
+.rollback{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+/* comment form */
+
+.form-control{
+    width: 100%;
+    height: auto;
+    outline: none;
+    border:  1px solid lightgray;
+}
+
+.commentBtn{
+    margin-top: 10px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(11, 155, 212);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    
+}
